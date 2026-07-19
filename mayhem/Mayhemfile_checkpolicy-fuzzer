@@ -1,0 +1,6 @@
+project: savantenvs/selinux
+target: checkpolicy-fuzzer
+cmds:
+  - cmd: /mayhem/checkpolicy-fuzzer
+    libfuzzer: true
+    dictionary: /mayhem/checkpolicy/fuzz/checkpolicy-fuzzer.dict
