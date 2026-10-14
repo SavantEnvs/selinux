@@ -1,0 +1,6 @@
+# seed-from: https://app.mayhem.security/savantenvs/selinux/selabel-file-compiled-fuzzer
+project: savantenvs/selinux
+target: selabel_file_compiled-fuzzer-mined-b325348
+cmds:
+  - cmd: /mayhem/selabel_file_compiled-fuzzer
+    libfuzzer: true
